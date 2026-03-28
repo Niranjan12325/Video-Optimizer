@@ -1,13 +1,13 @@
-# 🎥 Video Streaming Optimizer (Simulation Project)
+#  Video Streaming Optimizer (Simulation Project)
 
-## 📌 Overview
+##  Overview
 This project simulates a video streaming system under bandwidth constraints. It calculates **frame-wise buffering delay** based on video size and available network bandwidth.
 
 The goal is to understand how **network speed affects video playback performance**.
 
 ---
 
-## 🚀 Features
+##  Features
 - Reads video file frame-by-frame  
 - Simulates network bandwidth conditions  
 - Calculates buffering delay for each frame  
@@ -17,14 +17,14 @@ The goal is to understand how **network speed affects video playback performance
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 - Python  
 - OpenCV  
 - Matplotlib  
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 VideoStreamingOptimizer/
 │
 ├── main.py # Main simulation script
@@ -34,7 +34,7 @@ VideoStreamingOptimizer/
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ### 1. Clone the Repository
 git clone https://github.com/your-username/video-streaming-optimizer.git
@@ -47,13 +47,13 @@ pip install opencv-python matplotlib
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 python main.py
 
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 Modify this parameter in the code:
 simulated_bandwidth = 500 # KB/s
 
@@ -63,7 +63,7 @@ simulated_bandwidth = 500 # KB/s
 
 ---
 
-## 🎮 How It Works
+##  How It Works
 1. Loads a video file using OpenCV  
 2. Calculates each frame’s size in KB  
 3. Simulates network delay based on bandwidth  
@@ -73,7 +73,7 @@ simulated_bandwidth = 500 # KB/s
 
 ---
 
-## 📊 Output
+##  Output
 
 ### Console Output
 - Total Frames processed  
@@ -85,14 +85,14 @@ simulated_bandwidth = 500 # KB/s
 
 ---
 
-## 📈 Example Insight
+##  Example Insight
 - Large frames → higher delay  
 - Low bandwidth → more buffering  
 - Helps understand adaptive streaming concepts (like YouTube, Netflix)  
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 - Adaptive bitrate streaming (ABR)  
 - Real-time network fluctuation simulation  
 - Compression optimization  
@@ -101,11 +101,11 @@ simulated_bandwidth = 500 # KB/s
 
 ---
 
-## 👨‍💻 Author
+##  Author
 Niranjan E  
 Email: 126003183@sastra.ac.in  
 
 ---
 
-## ⭐ If you like this project
-Give it a ⭐ on GitHub and share!
+##  If you like this project.
+Give it a on GitHub and share!
